@@ -24,6 +24,11 @@
 		11053AAA206378CA002099E2 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11053AA9206378CA002099E2 /* FriendViewController.swift */; };
 		11053AAC20637EC5002099E2 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11053AAB20637EC5002099E2 /* UIView+Extension.swift */; };
 		11053AAE206393C6002099E2 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11053AAD206393C6002099E2 /* Common.swift */; };
+		116C389620639EBB00F004A7 /* UIBarButtonItem+Extesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116C389520639EBB00F004A7 /* UIBarButtonItem+Extesion.swift */; };
+		116C38982063A15900F004A7 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116C38972063A15900F004A7 /* UIImage+Extension.swift */; };
+		116C389A2063A27E00F004A7 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116C38992063A27E00F004A7 /* UIColor+Extension.swift */; };
+		116C389C2063A31800F004A7 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116C389B2063A31800F004A7 /* UIImageView+Extension.swift */; };
+		116C389E2063A35700F004A7 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116C389D2063A35700F004A7 /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +72,11 @@
 		11053AA9206378CA002099E2 /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
 		11053AAB20637EC5002099E2 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		11053AAD206393C6002099E2 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		116C389520639EBB00F004A7 /* UIBarButtonItem+Extesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extesion.swift"; sourceTree = "<group>"; };
+		116C38972063A15900F004A7 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		116C38992063A27E00F004A7 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		116C389B2063A31800F004A7 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		116C389D2063A35700F004A7 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -365,6 +375,11 @@
 			isa = PBXGroup;
 			children = (
 				11053AAB20637EC5002099E2 /* UIView+Extension.swift */,
+				116C389520639EBB00F004A7 /* UIBarButtonItem+Extesion.swift */,
+				116C38972063A15900F004A7 /* UIImage+Extension.swift */,
+				116C38992063A27E00F004A7 /* UIColor+Extension.swift */,
+				116C389B2063A31800F004A7 /* UIImageView+Extension.swift */,
+				116C389D2063A35700F004A7 /* String+Extension.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -522,12 +537,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				11053AAC20637EC5002099E2 /* UIView+Extension.swift in Sources */,
+				116C38982063A15900F004A7 /* UIImage+Extension.swift in Sources */,
 				11053AA8206378B7002099E2 /* MeViewController.swift in Sources */,
 				11053A9E20637780002099E2 /* MainNavigationController.swift in Sources */,
 				11053AA020637816002099E2 /* EssenceViewController.swift in Sources */,
 				11053AAE206393C6002099E2 /* Common.swift in Sources */,
+				116C389620639EBB00F004A7 /* UIBarButtonItem+Extesion.swift in Sources */,
 				11053AA220637827002099E2 /* NewViewController.swift in Sources */,
+				116C389E2063A35700F004A7 /* String+Extension.swift in Sources */,
 				11053AAA206378CA002099E2 /* FriendViewController.swift in Sources */,
+				116C389A2063A27E00F004A7 /* UIColor+Extension.swift in Sources */,
+				116C389C2063A31800F004A7 /* UIImageView+Extension.swift in Sources */,
 				11053A9C20637753002099E2 /* MainTabBar.swift in Sources */,
 				11053AA62063789A002099E2 /* PublishViewController.swift in Sources */,
 				11053A9A20635B9B002099E2 /* MainTabBarController.swift in Sources */,

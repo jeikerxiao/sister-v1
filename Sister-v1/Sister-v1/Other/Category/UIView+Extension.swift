@@ -58,7 +58,7 @@ extension UIView {
         }
         set(newVal) {
             var tmpFrame: CGRect = frame
-            tmpFrame.size.width = newVal
+            tmpFrame.size.height = newVal
             frame = tmpFrame
         }
     }
