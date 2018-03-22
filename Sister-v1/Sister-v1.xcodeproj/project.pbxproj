@@ -98,6 +98,12 @@
 			isa = PBXGroup;
 			children = (
 				11053A132063563C002099E2 /* AppDelegate.swift */,
+				11053A7B2063572F002099E2 /* Essence */,
+				11053A7D20635762002099E2 /* New */,
+				11053A8020635777002099E2 /* Post */,
+				11053A7E20635768002099E2 /* Me */,
+				11053A7C20635758002099E2 /* Follow */,
+				11053A7F2063576D002099E2 /* Other */,
 				11053A152063563C002099E2 /* ViewController.swift */,
 				11053A172063563C002099E2 /* Main.storyboard */,
 				11053A1A2063563C002099E2 /* Assets.xcassets */,
@@ -123,6 +129,48 @@
 				11053A352063563D002099E2 /* Info.plist */,
 			);
 			path = "Sister-v1UITests";
+			sourceTree = "<group>";
+		};
+		11053A7B2063572F002099E2 /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		11053A7C20635758002099E2 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		11053A7D20635762002099E2 /* New */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		11053A7E20635768002099E2 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		11053A7F2063576D002099E2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		11053A8020635777002099E2 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Post;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
