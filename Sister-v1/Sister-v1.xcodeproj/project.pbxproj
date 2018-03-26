@@ -29,6 +29,9 @@
 		116C389A2063A27E00F004A7 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116C38992063A27E00F004A7 /* UIColor+Extension.swift */; };
 		116C389C2063A31800F004A7 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116C389B2063A31800F004A7 /* UIImageView+Extension.swift */; };
 		116C389E2063A35700F004A7 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116C389D2063A35700F004A7 /* String+Extension.swift */; };
+		11D14F042068F0A400C2288D /* MeFootViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D14F032068F0A400C2288D /* MeFootViewVM.swift */; };
+		11D14F062068F1A300C2288D /* MeFootModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D14F052068F1A300C2288D /* MeFootModel.swift */; };
+		C7690EAAE9D820415C124A2C /* Pods_Sister_v1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D36C488EDEB1F34B3A68A43F /* Pods_Sister_v1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +80,11 @@
 		116C38992063A27E00F004A7 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		116C389B2063A31800F004A7 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		116C389D2063A35700F004A7 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		11D14F032068F0A400C2288D /* MeFootViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeFootViewVM.swift; sourceTree = "<group>"; };
+		11D14F052068F1A300C2288D /* MeFootModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeFootModel.swift; sourceTree = "<group>"; };
+		C8E901DF6DDA2D119013FDEA /* Pods-Sister-v1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sister-v1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sister-v1/Pods-Sister-v1.debug.xcconfig"; sourceTree = "<group>"; };
+		D36C488EDEB1F34B3A68A43F /* Pods_Sister_v1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sister_v1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0DEA3E08B1736630A2FBC0 /* Pods-Sister-v1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sister-v1.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sister-v1/Pods-Sister-v1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7690EAAE9D820415C124A2C /* Pods_Sister_v1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +120,8 @@
 				11053A272063563D002099E2 /* Sister-v1Tests */,
 				11053A322063563D002099E2 /* Sister-v1UITests */,
 				11053A112063563C002099E2 /* Products */,
+				CF0B894F4B478825C97BB0B7 /* Pods */,
+				9019DD137345592D5494E4D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -316,6 +327,7 @@
 		11053A8D206358F2002099E2 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				11D14F032068F0A400C2288D /* MeFootViewVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -345,6 +357,7 @@
 		11053A91206358FF002099E2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				11D14F052068F1A300C2288D /* MeFootModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -402,6 +415,23 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
+		9019DD137345592D5494E4D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D36C488EDEB1F34B3A68A43F /* Pods_Sister_v1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF0B894F4B478825C97BB0B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8E901DF6DDA2D119013FDEA /* Pods-Sister-v1.debug.xcconfig */,
+				DD0DEA3E08B1736630A2FBC0 /* Pods-Sister-v1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -409,9 +439,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11053A382063563D002099E2 /* Build configuration list for PBXNativeTarget "Sister-v1" */;
 			buildPhases = (
+				E21E3687A5B9D4D90DCAE03A /* [CP] Check Pods Manifest.lock */,
 				11053A0C2063563C002099E2 /* Sources */,
 				11053A0D2063563C002099E2 /* Frameworks */,
 				11053A0E2063563C002099E2 /* Resources */,
+				83D7F253E3234B10CD00B550 /* [CP] Embed Pods Frameworks */,
+				548626EB827393E283510633 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -531,6 +564,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		548626EB827393E283510633 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sister-v1/Pods-Sister-v1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83D7F253E3234B10CD00B550 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Sister-v1/Pods-Sister-v1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GrowingTextView/GrowingTextView.framework",
+				"${BUILT_PRODUCTS_DIR}/KYCircularProgress/KYCircularProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GrowingTextView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KYCircularProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sister-v1/Pods-Sister-v1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E21E3687A5B9D4D90DCAE03A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sister-v1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		11053A0C2063563C002099E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -547,10 +642,12 @@
 				116C389E2063A35700F004A7 /* String+Extension.swift in Sources */,
 				11053AAA206378CA002099E2 /* FriendViewController.swift in Sources */,
 				116C389A2063A27E00F004A7 /* UIColor+Extension.swift in Sources */,
+				11D14F062068F1A300C2288D /* MeFootModel.swift in Sources */,
 				116C389C2063A31800F004A7 /* UIImageView+Extension.swift in Sources */,
 				11053A9C20637753002099E2 /* MainTabBar.swift in Sources */,
 				11053AA62063789A002099E2 /* PublishViewController.swift in Sources */,
 				11053A9A20635B9B002099E2 /* MainTabBarController.swift in Sources */,
+				11D14F042068F0A400C2288D /* MeFootViewVM.swift in Sources */,
 				11053A162063563C002099E2 /* ViewController.swift in Sources */,
 				11053A142063563C002099E2 /* AppDelegate.swift in Sources */,
 			);
@@ -716,6 +813,7 @@
 		};
 		11053A392063563D002099E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8E901DF6DDA2D119013FDEA /* Pods-Sister-v1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -733,6 +831,7 @@
 		};
 		11053A3A2063563D002099E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD0DEA3E08B1736630A2FBC0 /* Pods-Sister-v1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
